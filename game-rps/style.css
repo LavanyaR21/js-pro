@@ -1,0 +1,63 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header
+{
+    background-color: #116A7B;
+    color:#ECE5C7;
+    font-family: 'Pacifico', cursive;
+    margin-top: 0px;
+    font-size: 10px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h1{
+    margin-top: 0px;
+}
+h2{
+  color: #116A7B;
+}
+.player-cont{
+    margin: 30px;
+  }
+  .result-cont
+  {
+    text-align: center;
+  }
+  
+#reset-icon {
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 70px;
+    
+  }
+  .game-cont{
+    background-color:#E3F4F4;
+    box-shadow: 0px 10px 20px -5px black;
+  }
+  #player .fa-regular,#player .choice,
+  #player .fa-solid{
+    color:#11009E;
+    margin-right: 20px;
+    font-size: 20px;
+    
+  }
+  #computer .fa-regular,#computer .choice,
+  #computer .fa-solid{
+    color:#CD1818;
+    margin-right: 20px;
+    font-size: 20px;
+  }
+  .selected {
+    color:#025464!important;
+    font-size: 35px!important;
+  }
+  
+
